@@ -1,18 +1,18 @@
 import React from 'react';
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import Banner from '@/components/Banner';
 
 const Index = () => {
   return (
     <div className="min-h-screen bg-gradient-to-b from-blue-100 to-white">
-      {/* Hero Section */}
+      <Banner />
       <header className="container mx-auto px-4 py-16 text-center">
         <h1 className="text-5xl font-bold mb-4">Welcome to SaaSify</h1>
         <p className="text-xl text-gray-600 mb-8">Streamline Your Workflow with Our Powerful SaaS Solution</p>
         <Button size="lg" className="bg-blue-600 hover:bg-blue-700">Get Started</Button>
       </header>
 
-      {/* Features Section */}
       <section className="container mx-auto px-4 py-16">
         <h2 className="text-3xl font-bold text-center mb-12">Key Features</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -29,7 +29,6 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Pricing Section */}
       <section className="bg-gray-100 py-16">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-12">Pricing Plans</h2>
@@ -54,14 +53,12 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Call to Action */}
       <section className="container mx-auto px-4 py-16 text-center">
         <h2 className="text-3xl font-bold mb-4">Ready to Get Started?</h2>
         <p className="text-xl text-gray-600 mb-8">Join thousands of satisfied customers and transform your business today.</p>
         <Button size="lg" className="bg-blue-600 hover:bg-blue-700">Sign Up Now</Button>
       </section>
 
-      {/* Footer */}
       <footer className="bg-gray-800 text-white py-8">
         <div className="container mx-auto px-4 text-center">
           <p>&copy; 2024 SaaSify. All rights reserved.</p>

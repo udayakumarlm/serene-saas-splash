@@ -1,9 +1,11 @@
 import React from 'react';
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import Banner from '@/components/Banner';
 
 const About = () => {
   return (
     <div className="min-h-screen bg-gradient-to-b from-blue-100 to-white">
+      <Banner />
       <header className="container mx-auto px-4 py-16 text-center">
         <h1 className="text-5xl font-bold mb-4">About SaaSify</h1>
         <p className="text-xl text-gray-600 mb-8">Empowering Businesses with Innovative Solutions</p>

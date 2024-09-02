@@ -2,6 +2,7 @@ import React from 'react';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
+import Banner from '@/components/Banner';
 
 const Help = () => {
   const faqs = [
@@ -14,6 +15,7 @@ const Help = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-blue-100 to-white">
+      <Banner />
       <header className="container mx-auto px-4 py-16 text-center">
         <h1 className="text-5xl font-bold mb-4">Help Center</h1>
         <p className="text-xl text-gray-600 mb-8">Find answers to common questions and get support</p>

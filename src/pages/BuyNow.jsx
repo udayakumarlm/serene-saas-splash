@@ -4,6 +4,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
+import Banner from '@/components/Banner';
 
 const BuyNow = () => {
   const plans = [
@@ -14,6 +15,7 @@ const BuyNow = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-blue-100 to-white">
+      <Banner />
       <header className="container mx-auto px-4 py-16 text-center">
         <h1 className="text-5xl font-bold mb-4">Choose Your Plan</h1>
         <p className="text-xl text-gray-600 mb-8">Select the perfect plan for your business needs</p>
